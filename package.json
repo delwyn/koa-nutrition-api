@@ -1,0 +1,25 @@
+{
+  "name": "foods",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^0.18.0",
+    "koa-json": "^1.1.1",
+    "koa-route": "^2.4.0",
+    "lodash": "^3.3.0",
+    "monk": "^0.9.1"
+  },
+  "devDependencies": {
+    "chai": "^2.0.0",
+    "co-supertest": "0.0.7",
+    "supertest": "^0.15.0",
+    "ya-csv": "^0.9.4"
+  }
+}
