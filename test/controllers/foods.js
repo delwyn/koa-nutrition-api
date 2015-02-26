@@ -1,7 +1,7 @@
-var app     = require('../server.js');
+var app     = require('../../server.js');
 var request = require('co-supertest').agent(app.listen());
 var expect  = require('chai').expect;
-var helpers = require('./helpers');
+var helpers = require('../helpers');
 
 describe('GET /foods', function() {
   beforeEach(function *() {
